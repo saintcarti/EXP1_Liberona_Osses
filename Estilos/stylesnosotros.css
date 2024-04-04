@@ -14,9 +14,10 @@ nav {
     margin-top: 20px; 
     margin-bottom: 30px; 
     position: relative; 
-    top: -10px; 
     box-shadow: 7px 13px 37px rgb(220, 200, 180);
-    border: solid blue;
+	background-color: white; /* Cambiado el color de fondo */
+	padding: 5px 20px; /* Añadido espacio alrededor */
+	border-radius: 5px; /* Añadidos bordes redondeados */
 }
 .menu-horizontal{
     list-style: none;
@@ -26,17 +27,19 @@ nav {
 .menu-horizontal >li>a{
     display: block;
     padding: 15px 20px;
-    color: white;
+    color: black;
     text-decoration: none;
 }
 .menu-horizontal >li:hover{
-    background-color: blue;
+	background-color: #0e7cc2; /* Cambiado el color de fondo */
+	padding: 5px 20px; /* Añadido espacio alrededor */
+	border-radius: 5px; /* Añadidos bordes redondeados */
 }
 .box{
     height: 80px;
     max-width: 250px;
     margin: auto;
-    background-color: #333;
+    background-color: white;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -47,7 +50,7 @@ nav {
 }
 .text{
     font-size: 25px;
-    color: white;
+    color: black;
     margin-bottom: 20px;
 }
 .box-parrafo{

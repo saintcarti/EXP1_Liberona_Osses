@@ -10,14 +10,18 @@
     background-image: url('../IMG/FondoTeCuidoSecurity.jpg');
   }
 
-  nav{
-	max-width: max-content;
-	margin: auto;
-	background-color: #333;
-	font-size: 20px;
-	margin-top: 50px;
-  box-shadow: 7px 13px 37px rgb(220, 200, 180);
-  border: solid blue;
+  nav {
+    max-width: max-content;
+    margin: auto;
+    background-color: #333;
+    font-size: 20px;
+    margin-top: 20px; 
+    margin-bottom: 30px; 
+    position: relative; 
+    box-shadow: 7px 13px 37px rgb(220, 200, 180);
+	background-color: white; /* Cambiado el color de fondo */
+	padding: 5px 20px; /* Añadido espacio alrededor */
+	border-radius: 5px; /* Añadidos bordes redondeados */
 }
 .menu-horizontal{
 	list-style: none;
@@ -27,11 +31,13 @@
 .menu-horizontal > li > a{
 	display: block;
 	padding: 15px 20px;
-	color: white;
+	color: black;
 	text-decoration: none;
 }
-.menu-horizontal > li:hover{
-	background-color: blue;
+.menu-horizontal >li:hover{
+	background-color: #0e7cc2; /* Cambiado el color de fondo */
+	padding: 5px 20px; /* Añadido espacio alrededor */
+	border-radius: 5px; /* Añadidos bordes redondeados */
 }
   
   .form-login {
