@@ -36,10 +36,7 @@ nav {
 	transition: background-color 0.3s; /* Añadida transición de color de fondo */
 }
 
-.menu-horizontal > li:hover > a {
-	background-color: #0e7cc2; /* Cambiado el color de fondo al pasar el ratón */
-}
-.menu-horizontal > li:hover 
+
 
 .menu-vertical {
 	position: absolute;
@@ -53,11 +50,6 @@ nav {
 .menu-horizontal li:hover .menu-vertical {
 	display: block;
 }
-
-.menu-vertical li:hover {
-	background-color: #0e7cc2; /* Cambiado el color de fondo al pasar el ratón */
-}
-
 .menu-vertical li a {
 	display: block;
 	color: white;
