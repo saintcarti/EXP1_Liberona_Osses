@@ -157,10 +157,13 @@ footer{
 	color: white;
 	background-color:#085066;
     padding: 10px;
-    text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    
 }
+
+footer >p{
+	text-align: right;
+}
+
 .containerimage{
 	display: flex;
 	flex-wrap: wrap;
@@ -191,4 +194,16 @@ footer{
 }
 .navbar-brand{
 	margin-bottom: 5px;
+}
+.p_index{
+	padding-top: 25px;
+	margin-top: 25px;
+	margin-left: 150px;
+	margin-right: 150px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: #085066;
+	color: white;
+	padding-left: 120px;
+	border-radius: 15px;
 }
