@@ -41,57 +41,57 @@ nav {
     padding: 30px;
     margin: auto;
     margin-top: 100px;
-    border-radius: 4px;
+    border-radius: 7px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-shadow: 7px 13px 37px rgb(200, 180, 220);
-    border:solid blue;
+    border:solid #085066;
 }
   
 .form-register h4 {
     font-size: 22px;
     margin-bottom: 20px;
-    color: blue;
+    color: #085066;
 }
   
 .controls {
     width: 100%;
     background: white;
     padding: 10px;
-    border-radius: 4px;
+    border-radius: 5px;
     margin-bottom: 16px;
-    border: 1px solid blue;
+    border: 1px solid #085066;
     font-family: 'calibri';
     font-size: 18px;
     color: black;
 }
+.botons{
+    background-color: #085066!important;
+    border-radius: 5px;
+}
+
   
 .form-register p {
     height: 40px;
     text-align: center;
     font-size: 14px;
     line-height: 40px;
-    color: blue;
+    color:#085066;
 }
   
-p{
-    font-size: 14px;
-    color: black;
-}
 
 .form-register a {
-    color: blue;
+    color: #085066;
     text-decoration: none;
 }
 
   
 .form-register a:hover {
-    color: blue;
+    color: #085066;
     text-decoration: underline;
 }
   
 .form-register .botons {
     width: 100%;
-    background: blue;
     border: none;
     padding: 12px;
     color: white;
@@ -99,3 +99,11 @@ p{
     font-size: 16px;
 }
 
+footer{
+	color: white;
+	background-color:transparent;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: 05202E; 
+}

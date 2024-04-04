@@ -168,8 +168,13 @@ footer{
 	height: 300px;
 }
 .containerimage img{
-	max-height: 200px;
+	max-height: 300px;
+	max-width: 100%;
 	width: auto;
+	height: auto;
+	object-fit: cover;
+	margin: 0 12.5px;
+	display: block;
 }
 .btn-outline-success{
 	border-color: #085066!important;

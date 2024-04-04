@@ -34,10 +34,10 @@
     text-decoration: none;
   }
 
-  .menu-horizontal >li:hover{
-    background-color: #0e7cc2; /* Cambiado el color de fondo */
-    padding: 5px 20px; /* Añadido espacio alrededor */
-    border-radius: 5px; /* Añadidos bordes redondeados */
+  .menu-horizontal >li:hover a{
+    background-color: #085066; 
+    border-radius: 5px; 
+    color: white;
   }
     
   
@@ -50,13 +50,13 @@
     border-radius: 4px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-shadow: 7px 13px 37px rgb(200, 180, 220);
-    border:solid blue;
+    border:solid #085066;
   }
   
   .form-register h4 {
     font-size: 22px;
     margin-bottom: 20px;
-    color: blue;
+    color: #085066;
   }
   
   .controls {
@@ -65,7 +65,7 @@
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid blue;
+    border: 1px solid#085066;
     font-family: 'calibri';
     font-size: 18px;
     color: black;
@@ -76,25 +76,34 @@
     text-align: center;
     font-size: 14px;
     line-height: 40px;
-    color: blue;
+    color:#085066;
   }
   
   .form-register a {
-    color: blue;
+    color: #085066;
     text-decoration: none;
   }
   
   .form-register a:hover {
-    color: blue;
+    color: #085066;
     text-decoration: underline;
   }
   
   .form-register .botons {
     width: 100%;
-    background: blue;
+    background: #085066;
     border: none;
     padding: 12px;
     color: white;
     margin: 16px 0;
     font-size: 16px;
+    border-radius: 7px;
+  }
+  footer{
+    color: white;
+    background-color:transparent;
+      padding: 10px;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      color: 05202E; 
   }
