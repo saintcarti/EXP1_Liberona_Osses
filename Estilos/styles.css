@@ -155,7 +155,7 @@ nav {
 }
 footer{
 	color: white;
-	background-color:transparent;
+	background-color:#085066;
     padding: 10px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -163,18 +163,13 @@ footer{
 }
 .containerimage{
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	height: 300px;
+	flex-wrap: wrap;
 }
 .containerimage img{
+	flex-grow: 1;
+	flex-basis: 200;
 	max-height: 300px;
 	max-width: 100%;
-	width: auto;
-	height: auto;
-	object-fit: cover;
-	margin: 0 12.5px;
-	display: block;
 }
 .btn-outline-success{
 	border-color: #085066!important;
