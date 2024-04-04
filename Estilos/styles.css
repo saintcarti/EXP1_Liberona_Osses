@@ -84,14 +84,19 @@ nav {
 	font-size: 20px;
 	color: white;
 	padding: 10px 20px;
-	border-radius: 5px;
+	border-radius: 7px;
+	border-color: #085066!important;
 	transition: background-color 0.3s;
 }
-
+.dropdown-item a [href="inicoSesion.html"]{
+	border-radius: 5px;
+}
 .navbar-brand:hover,
 .nav-link:hover ,
 .dropdown-item:hover{
-	background-color: #0e7cc2; /* Cambiado el color de fondo al pasar el ratón */
+	border-radius: 7px;
+	background-color: #085066!important; /* Cambiado el color de fondo al pasar el ratón */
+	color: white!important;
 }
 
 .navbar-nav {
@@ -108,17 +113,14 @@ nav {
 }
 
 .dropdown-menu {
-	background-color: #0e7cc2; /* Cambiado el color de fondo */
-	border-radius: 5px; /* Añadidos bordes redondeados */
+	background-color: transparent!important;
 }
-
 .dropdown-item{
-
-	color: white;
+	background-color: #fff!important;
 	transition: background-color 0.3s;
-	border-radius: 5px;
-	padding: 10px 20px;
-
+	border-radius: 7px!important;
+	display: flex;
+	margin: 5px;
 }
 
 
@@ -159,7 +161,7 @@ nav {
 	display: flex;
 
 }
-.footer{
+footer{
 	color: white;
 	background-color:transparent;
     padding: 10px;
@@ -176,4 +178,10 @@ nav {
 .containerimage img{
 	max-height: 200px;
 	width: auto;
+}
+.btn-outline-success{
+	border-color: #085066!important;
+}
+.btn-outline-success:hover{
+	background-color: #085066!important;
 }
