@@ -82,7 +82,7 @@ nav {
 .nav-link,
 .dropdown-item{
 	font-size: 20px;
-	color: white;
+	color: black!important;
 	padding: 10px 20px;
 	border-radius: 7px;
 	border-color: #085066!important;
@@ -181,7 +181,22 @@ footer{
 }
 .btn-outline-success{
 	border-color: #085066!important;
+	color: black!important;
 }
 .btn-outline-success:hover{
 	background-color: #085066!important;
+	color: #fff!important;
+}
+.navbar-brand-image{
+	margin-top: -25px;
+}
+.mb-0{
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+}
+.navbar-brand{
+	margin-bottom: 5px;
 }
