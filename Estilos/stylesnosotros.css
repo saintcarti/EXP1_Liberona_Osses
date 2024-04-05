@@ -115,10 +115,56 @@ h1, h2, h3, h4, h5, h6,
     color: white;
     margin-bottom: 20px;
 }
-footer{
-	color: white;
-	background-color:transparent;
-    padding: 10px;
+/* Estilos del footer */
+footer {
+
+	background-color: rgba(255, 255, 255, 0.479); 
+    color: #085066;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 0;
+    display: flex; /* Utilizando flexbox */
+    justify-content: space-between; /* Distribuye los elementos en los extremos */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.info img {
+    width: 80px; /* Ajusta el tamaño del logo */
+    margin-right: 20px;
+	margin-left: 20px; /* Ajusta el margen izquierdo */
+}
+
+.contacto h3 {
+    margin-bottom: 5px;
+    color: #085066; /* Texto blanco */
+    font-size: 15px; /* Tamaño del texto ajustado */
+}
+
+.redes h3 {
+    color: #085066; /* Texto blanco */
+    margin-bottom: 20px; /* Espacio entre el texto y los iconos */
+	font-size: 15px; /* Tamaño del texto ajustado */
+	margin-right: 20px;
+}
+
+.redes {
+    display: flex;
+    align-items: center; /* Centra horizontalmente los elementos */
+}
+
+.redes a {
+    margin: 15px 0; /* Añade espacio vertical entre los iconos */
+	margin-right: 15px;
+    display: inline-block;
+}
+
+.redes img {
+    width: 40px;
+    height: 40px;
 }
