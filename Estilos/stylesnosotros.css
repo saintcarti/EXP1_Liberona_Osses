@@ -195,7 +195,8 @@ nav {
     border-radius: 7px;
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;    
+    color: white;  
+    margin-bottom: 15px;  
 }
 .Valores{
     background-color: #085066;
@@ -205,23 +206,24 @@ nav {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
     color: white;
+    margin-bottom: 15px;
 }
 .ubi{
     background-color: #085066;
     width: 800px;
     margin: 5px;
-    
     border-radius: 7px;
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white!important;
+    color: white;
 }
 
 h1, h2, h3, h4, h5, h6,
 .Mision, .Vision, .Nosotros, .Valores, .ubi {
-    color: white;
+    color: white!important;
     margin-bottom: 20px;
     text-align: center;
+
 }
 footer {
 
