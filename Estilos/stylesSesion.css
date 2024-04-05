@@ -52,6 +52,7 @@
     border-top: 4px solid #085066;
     color: #085066;
     border: solid #085066;
+    margin-bottom: 25px;
   }
   
   .form-login h5 {
@@ -112,16 +113,15 @@ input[type="submit"]{
     text-decoration: underline;
   }
 
-/* Estilos del footer */
 footer {
 
 	background-color: rgba(255, 255, 255, 0.479); 
     color: #085066;
     text-align: center;
     padding: 20px 0;
-    display: flex; /* Utilizando flexbox */
-    justify-content: space-between; /* Distribuye los elementos en los extremos */
-    align-items: center; /* Centra verticalmente los elementos */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
 }
 
 .info {
@@ -132,21 +132,21 @@ footer {
 }
 
 .info img {
-    width: 80px; /* Ajusta el tamaño del logo */
+    width: 80px; 
     margin-right: 20px;
-	margin-left: 20px; /* Ajusta el margen izquierdo */
+	margin-left: 20px; 
 }
 
 .contacto h3 {
     margin-bottom: 5px;
-    color: #085066; /* Texto blanco */
-    font-size: 15px; /* Tamaño del texto ajustado */
+    color: #085066; 
+    font-size: 15px; 
 }
 
 .redes h3 {
-    color: #085066; /* Texto blanco */
-    margin-bottom: 80px; /* Espacio entre el texto y los iconos */
-	font-size: 15px; /* Tamaño del texto ajustado */
+    color: #085066;
+    margin-bottom: 80px; 
+	font-size: 15px; 
 	margin-right: -190px;
 }
 

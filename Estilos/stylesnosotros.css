@@ -45,21 +45,18 @@ nav {
     background-color: #085066;
     width: 72px;
     border-radius: 7px;
-    border: solid #085066;
     display: flex;
 }
 .Mision{
     background-color: #085066;
     width: 90px;
     border-radius: 7px;
-    border: solid #085066;
     display: flex;
 }
 .ubica{
     background-color: #085066;
     width: 110px;
     border-radius: 7px;
-    border: solid #085066;
     display: flex;
 }
 .p_about{
@@ -70,12 +67,12 @@ nav {
     padding: 50px;
     border-radius: 7px;
     border: 2px solid whitesmoke;
+    margin-bottom: 20px;
 }
 .Nosotros{
     background-color: #085066;
     width: 800px;
     margin: 5px;
-    border: solid #085066;
     border-radius: 7px;
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -85,7 +82,7 @@ nav {
     background-color: #085066;
     width: 800px;
     margin: 5px;
-    border: solid #085066;
+
     border-radius: 7px;
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -95,7 +92,6 @@ nav {
     background-color: #085066;
     width: 800px;
     margin: 5px;
-    border: solid #085066;
     border-radius: 7px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
@@ -105,7 +101,7 @@ nav {
     background-color: #085066;
     width: 800px;
     margin: 5px;
-    border: solid #085066;
+    
     border-radius: 7px;
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
