@@ -39,13 +39,29 @@ nav {
 	border-radius: 5px; 
 	color: white;
 }
-  
+
+/* Estilos del título */
+.titulo {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px; /* Ajusta el padding para controlar el tamaño del fondo */
+    background-color: #ffffff; /* Fondo blanco */
+    color: #333; /* Color del texto */
+    box-shadow: 7px 13px 37px rgb(220, 200, 180);
+    width: fit-content; /* Ajusta el ancho del fondo al contenido del título */
+    margin: auto; /* Centra horizontalmente */
+    line-height: 40px; /* Ajusta la altura de línea para centrar verticalmente */
+	border-radius: 5px; /* Añadidos bordes redondeados */
+}
 
 /* Estilos de la galería */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff; /* Cambié el color de fondo a blanco */
+    background-color: #f2f2f2;
 }
+
+
 
 .galeria {
     display: grid;
