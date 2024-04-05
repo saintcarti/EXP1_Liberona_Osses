@@ -4,7 +4,12 @@
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+:root {
+    --main-color: #085066;
+    --secondary-color: #ffffff;
+    --tertiary-color: #333;
+    --box-shadow: 7px 13px 37px rgb(220, 200, 180);
+}
 body{
 	background-image: url('../IMG/FondoTeCuidoSecurity.jpg');
 }
@@ -27,17 +32,17 @@ nav {
 	display: flex;
 	justify-content: space-around;
 }
-.menu-horizontal > li > a{
-	display: block;
-	padding: 15px 20px;
-	color: black;
-	text-decoration: none;
+.menu-horizontal > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: var(--tertiary-color);
+    text-decoration: none;
 }
 
-.menu-horizontal >li:hover a{
-	background-color: #085066; 
-	border-radius: 5px; 
-	color: white;
+.menu-horizontal > li:hover > a {
+    background-color: var(--main-color); 
+    border-radius: 5px; 
+    color: var(--secondary-color);
 }
   
 .titulo {
@@ -45,9 +50,9 @@ nav {
     font-size: 24px;
     font-weight: bold;
     padding: 10px 20px; 
-    background-color: #ffffff; 
-    color: #333; 
-    box-shadow: 7px 13px 37px rgb(220, 200, 180);
+    background-color: var(--secondary-color); 
+    color: var(--tertiary-color); 
+    box-shadow: var(--box-shadow);
     width: fit-content; 
     margin: auto; 
     line-height: 40px; 
