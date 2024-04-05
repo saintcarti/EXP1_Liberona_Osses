@@ -1,15 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
-:root {
-    --main-color: #085066;
-    --secondary-color: #ffffff;
-    --tertiary-color: #333;
-    --box-shadow: 7px 13px 37px rgb(220, 200, 180);
-}
+
 body{
 	background-image: url('../IMG/FondoTeCuidoSecurity.jpg');
 }
@@ -24,6 +19,87 @@ nav {
 	padding: 5px 20px;
 	border-radius: 5px; 
 }
+.container-fluid {
+	box-shadow: 7px 13px 37px rgb(220, 200, 180);
+	margin-top: 10px; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 100%; 
+	padding: 10px; 
+	border-radius: 5px; 
+	background-color: #fff; 
+}
+
+.d-flex{
+	margin-left: -20px;
+}
+
+
+
+.navbar-brand ,
+.nav-link,
+.dropdown-item{
+	font-size: 20px;
+	color: black!important;
+	padding: 10px 20px;
+	border-radius: 7px;
+	border-color: #085066!important;
+	transition: background-color 0.3s;
+}
+.dropdown-item a [href="inicoSesion.html"]{
+	border-radius: 5px;
+}
+.navbar-brand:hover,
+.nav-link:hover ,
+.dropdown-item:hover{
+	border-radius: 7px;
+	background-color: #085066!important; 
+	color: white!important;
+}
+
+.navbar-nav {
+	display: flex;
+	align-items: center;
+}
+
+.nav-item {
+	margin-right: 20px;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.dropdown-menu {
+	background-color: transparent!important;
+}
+.dropdown-item{
+	background-color: #fff!important;
+	transition: background-color 0.3s;
+	border-radius: 7px!important;
+	display: flex;
+	margin: 5px;
+}
+.mb-0{
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 18px;
+	color: #000!important;
+	font-weight: bold;
+}
+.d-flex{
+	margin-left: -20px;
+}
+.btn-outline-success{
+	border-color: #085066!important;
+	color: black!important;
+}
+.btn-outline-success:hover{
+	background-color: #085066!important;
+	color: white!important;
+}
+
 
 .menu-horizontal {
 	list-style: none;
@@ -33,14 +109,14 @@ nav {
 .menu-horizontal > li > a {
     display: block;
     padding: 15px 20px;
-    color: var(--tertiary-color);
+    color: #333;
     text-decoration: none;
 }
 
-.menu-horizontal > li:hover > a {
-    background-color: var(--main-color); 
+.menu-horizontal > li:hover > a:hover {
+    background-color: #085066!important; 
     border-radius: 5px; 
-    color: var(--secondary-color);
+    color: #ffffff;
 }
   
 .titulo {
@@ -48,9 +124,9 @@ nav {
     font-size: 24px;
     font-weight: bold;
     padding: 10px 20px; 
-    background-color: var(--secondary-color); 
-    color: var(--tertiary-color); 
-    box-shadow: var(--box-shadow);
+    background-color: #ffffff; 
+    color: #333; 
+    box-shadow:  7px 13px 37px rgb(220, 200, 180);
     width: fit-content; 
     margin: auto; 
     line-height: 40px; 
@@ -115,7 +191,7 @@ body {
 
 footer {
 
-	background-color: rgba(255, 255, 255, 0.479); 
+	background-color:slategrey; 
     color: #085066;
     text-align: center;
     padding: 20px 0;
@@ -134,17 +210,18 @@ footer {
 .info img {
     width: 80px; 
     margin-right: 20px;
-	margin-left: 20px; 
+	margin-left: 20px;
+    border-radius: 15px;
 }
 
 .contacto h3 {
     margin-bottom: 5px;
-    color: #085066; 
+    color: white; 
     font-size: 15px; 
 }
 
 .redes h3 {
-    color: #085066; 
+    color: white; 
     margin-bottom: 80px; 
 	font-size: 15px; 
 	margin-right: -190px;
