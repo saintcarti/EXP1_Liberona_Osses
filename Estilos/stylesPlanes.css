@@ -143,18 +143,19 @@ footer {
 
 .redes h3 {
     color: #085066; /* Texto blanco */
-    margin-bottom: 20px; /* Espacio entre el texto y los iconos */
+    margin-bottom: 80px; /* Espacio entre el texto y los iconos */
 	font-size: 15px; /* Tamaño del texto ajustado */
-	margin-right: 20px;
+	margin-right: -190px;
 }
 
 .redes {
     display: flex;
-    align-items: center; /* Centra horizontalmente los elementos */
+    align-items: center; 
+	
 }
 
 .redes a {
-    margin: 15px 0; /* Añade espacio vertical entre los iconos */
+    margin: 15px 0; 
 	margin-right: 15px;
     display: inline-block;
 }
@@ -162,4 +163,5 @@ footer {
 .redes img {
     width: 40px;
     height: 40px;
+	border-radius: 15px;
 }
