@@ -149,6 +149,100 @@ nav {
 }
 
 
+.container-fluid {
+	box-shadow: 7px 13px 37px rgb(220, 200, 180);
+	margin-top: 10px; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 100%; 
+	padding: 10px; 
+	border-radius: 5px; 
+	background-color: #fff; 
+}
+
+.navbar-brand ,
+.nav-link,
+.dropdown-item{
+	font-size: 20px;
+	color: black!important;
+	padding: 10px 20px;
+	border-radius: 7px;
+	border-color: #085066!important;
+	transition: background-color 0.3s;
+}
+.dropdown-item a [href="inicoSesion.html"]{
+	border-radius: 5px;
+}
+.navbar-brand:hover,
+.nav-link:hover ,
+.dropdown-item:hover{
+	border-radius: 7px;
+	background-color: #085066!important; 
+	color: white!important;
+}
+
+.navbar-nav {
+	display: flex;
+	align-items: center;
+}
+
+.nav-item {
+	margin-right: 20px;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.dropdown-menu {
+	background-color: transparent!important;
+}
+.dropdown-item{
+	background-color: #fff!important;
+	transition: background-color 0.3s;
+	border-radius: 7px!important;
+	display: flex;
+	margin: 5px;
+}
+
+
+.form-control {
+	width: 300px; 
+}
+
+
+.carousel-item img {
+    max-width: 35%; 
+    height: 300px; 
+    display: block; 
+    margin: auto;
+	border-radius: 15px; 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: auto; 
+    color: #fff;
+    background: none; 
+    border: none; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.d-flex{
+	margin-left: -20px;
+}
+
+
 
 .Vision{
     background-color: #085066;
