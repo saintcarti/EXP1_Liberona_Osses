@@ -40,6 +40,19 @@ nav {
 	color: white;
 }
   
+.titulo {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px; 
+    background-color: #ffffff; 
+    color: #333; 
+    box-shadow: 7px 13px 37px rgb(220, 200, 180);
+    width: fit-content; 
+    margin: auto; 
+    line-height: 40px; 
+    border-radius: 5px;
+}
 
 /* Estilos de la galería */
 body {
@@ -64,8 +77,9 @@ body {
 
 .imagen img {
     width: 100%;
-    height: auto;
-    max-width: 200px;
+    height: 100%;
+    object-fit: cover;
+
 }
 
 .imagen:hover {
@@ -88,5 +102,8 @@ body {
 }
 
 .imagen:hover .descripcion {
+    background-color: #085066;
     opacity: 1;
+    color: white;
+    
 }
