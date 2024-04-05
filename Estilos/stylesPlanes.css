@@ -39,20 +39,19 @@ nav {
 	border-radius: 5px; 
 	color: white;
 }
-
-/* Estilos del título */
+  
 .titulo {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-    padding: 10px 20px; /* Ajusta el padding para controlar el tamaño del fondo */
-    background-color: #ffffff; /* Fondo blanco */
-    color: #333; /* Color del texto */
+    padding: 10px 20px; 
+    background-color: #ffffff; 
+    color: #333; 
     box-shadow: 7px 13px 37px rgb(220, 200, 180);
-    width: fit-content; /* Ajusta el ancho del fondo al contenido del título */
-    margin: auto; /* Centra horizontalmente */
-    line-height: 40px; /* Ajusta la altura de línea para centrar verticalmente */
-	border-radius: 5px; /* Añadidos bordes redondeados */
+    width: fit-content; 
+    margin: auto; 
+    line-height: 40px; 
+    border-radius: 5px;
 }
 
 /* Estilos de la galería */
@@ -80,8 +79,9 @@ body {
 
 .imagen img {
     width: 100%;
-    height: auto;
-    max-width: 200px;
+    height: 100%;
+    object-fit: cover;
+
 }
 
 .imagen:hover {
@@ -104,5 +104,8 @@ body {
 }
 
 .imagen:hover .descripcion {
+    background-color: #085066;
     opacity: 1;
+    color: white;
+    
 }
